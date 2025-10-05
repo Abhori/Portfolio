@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhori - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wgh@400;600;700&display=swap" rel="stylesheet">
+
+    <header>
+        <nav>
+            <div class="left">Abhori's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#achievements">Achivements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</head>
+
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Abhori</span>
+                <div>and I am a Passionate </div>
+
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="b.png.png" height="350px" width="350px">
+            </div>
+        </section>
+
+        <div class="horizontalline">
+            <div></div>
+        </div>
+
+        <section class="about" id="about">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm <span class="highlight">Abhori</span> — a passionate Computer Science student
+                    and aspiring developer. I love solving problems using technology and exploring
+                    new tools that make life easier. My interests include
+                    <span class="highlight">web development</span>,
+                    <span class="highlight">AI</span>, and
+                    <span class="highlight">software developer</span>.
+                </p>
+
+                <p>
+                    I’m currently learning <span class="highlight">Java, Python, and JavaScript</span>.
+                    My goal is to become a full-stack developer and contribute to impactful projects
+                    that combine creativity with code.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="mypic.jpg" alt="My pic">
+            </div>
+        </section>
+        <hr>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <p>Python</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="achievements" id="achievements">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <img src="achive1.jpg" alt="Achievement 1">
+                    <div class="achievement-info">
+                        <p>Secured 1 st Position in Regionals Athelete Meet</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <img src="achive2.jpg" alt="Achievement 2">
+                    <div class="achievement-info">
+                        <p>1 st Position in Cyclothon</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <img src="achive3.jpg" alt="Achievement 3">
+                    <div class="achievement-info">
+                        <p>Certified for participation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-container">
+                <div class="project-card">
+
+                    <div class="project-info">
+                        <h3>Amazon Clone</h3>
+                        <p>A simple front-end clone of the Amazon website built using HTML and CSS.</p>
+                        <a href="https://abhori.github.io/Amazon-Clone/" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>.</p>
+                        <a href="" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-info">
+                        <h3>Ferris Wheel</h3>
+                        <p>A sleek weather forecast app that fetches live data using APIs. Built with HTML, CSS, and JavaScript, it provides up-to-date weather updates with an intuitive and user-friendly design.</p>
+                        <a href="https://abhori.github.io/Ferris-wheel/" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <h3><span class="icon">📞</span> Contact Me</h3>
+            <div class="contact-links">
+                <a href="mailto:maityabhori@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">LinkedIn</a>
+                <a href="https://github.com/Abhori">GitHub</a>
+                <a href="https://www.instagram.com/abhori.19/?next=%2Faccounts%2Fpassword%2Freset%2F">Instagram:
+                    abhori.19</a>
+                <p class="phone">📱 +91 6297******</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025 Abhori Maity. All rights reserved.
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Basketball lover', 'Chess Lover', 'Athlete'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
